@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity2"
+    android:background="#D490A7"
+    android:id="@+id/outlook2">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is weight"
+        android:id="@+id/weight"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#EDD609"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="this is height3"
+        android:textSize="32sp"
+        android:id="@+id/height1"
+        android:textStyle="bold"
+        android:textColor="#EDD609"
+        android:layout_marginBottom="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is height2"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:id="@+id/height2"
+        android:textColor="#EDD609"
+        android:layout_marginBottom="20sp"/>
+
+</LinearLayout>
